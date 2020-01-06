@@ -39,9 +39,6 @@ class LoginViewController: UIViewController {
         
     }
     
-    
-    
-    
     @IBAction func loginTapped(_ sender: Any) {
         
         // TODO: Validate Text Fields

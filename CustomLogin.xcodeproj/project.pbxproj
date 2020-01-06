@@ -16,10 +16,10 @@
 		5E21462123BE71E100029297 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E21462023BE71E100029297 /* Assets.xcassets */; };
 		5E21462423BE71E100029297 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E21462223BE71E100029297 /* LaunchScreen.storyboard */; };
 		5E5F1AA423BFD5B8002E58B5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5F1AA323BFD5B8002E58B5 /* Constants.swift */; };
-		5E5F1AAF23C016EE002E58B5 /* loginbg.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 5E5F1AAE23C016EE002E58B5 /* loginbg.mp4 */; };
 		5E5F1AB123C01A76002E58B5 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5F1AB023C01A76002E58B5 /* HomeViewController.swift */; };
 		5E5F1AB323C01AE6002E58B5 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5F1AB223C01AE6002E58B5 /* SignUpViewController.swift */; };
 		5E5F1AB523C01B75002E58B5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5F1AB423C01B75002E58B5 /* LoginViewController.swift */; };
+		5E6DF04A23C37D2B002962E1 /* Loginbg.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 5E6DF04923C37D2A002962E1 /* Loginbg.mp4 */; };
 		E9E8D5112AD1FAAC51707C1A /* Pods_CustomLogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93416672F67237CA0B7E3901 /* Pods_CustomLogin.framework */; };
 /* End PBXBuildFile section */
 
@@ -36,10 +36,10 @@
 		5E21462323BE71E100029297 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5E21462523BE71E100029297 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5E5F1AA323BFD5B8002E58B5 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		5E5F1AAE23C016EE002E58B5 /* loginbg.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = loginbg.mp4; sourceTree = "<group>"; };
 		5E5F1AB023C01A76002E58B5 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		5E5F1AB223C01AE6002E58B5 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		5E5F1AB423C01B75002E58B5 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		5E6DF04923C37D2A002962E1 /* Loginbg.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Loginbg.mp4; sourceTree = "<group>"; };
 		93416672F67237CA0B7E3901 /* Pods_CustomLogin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CustomLogin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8B99E3D788C7EA1BE4B656D /* Pods-CustomLogin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomLogin.debug.xcconfig"; path = "Target Support Files/Pods-CustomLogin/Pods-CustomLogin.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -114,7 +114,7 @@
 		5E21463323BE727700029297 /* Media */ = {
 			isa = PBXGroup;
 			children = (
-				5E5F1AAE23C016EE002E58B5 /* loginbg.mp4 */,
+				5E6DF04923C37D2A002962E1 /* Loginbg.mp4 */,
 			);
 			path = Media;
 			sourceTree = "<group>";
@@ -197,7 +197,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E21462423BE71E100029297 /* LaunchScreen.storyboard in Resources */,
-				5E5F1AAF23C016EE002E58B5 /* loginbg.mp4 in Resources */,
+				5E6DF04A23C37D2B002962E1 /* Loginbg.mp4 in Resources */,
 				5E0F6F0923BE9C0100326488 /* GoogleService-Info.plist in Resources */,
 				5E21462123BE71E100029297 /* Assets.xcassets in Resources */,
 				5E21461F23BE71DD00029297 /* Main.storyboard in Resources */,

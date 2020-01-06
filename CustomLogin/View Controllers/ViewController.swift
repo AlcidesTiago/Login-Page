@@ -39,7 +39,7 @@ class ViewController: UIViewController {
     }
     func setUpVideo(){
          //Get the path to the resource in the bundle
-       let bundlePath = Bundle.main.path(forResource: "loginbg", ofType: "mp4")
+       let bundlePath = Bundle.main.path(forResource: "Loginbg", ofType: "mp4")
         
         guard bundlePath != nil else {
             return
@@ -58,14 +58,11 @@ class ViewController: UIViewController {
             -self.view.frame.size.width*1.5, y:0, width:
             self.view.frame.size.width*4, height:
             self.view.frame.size.height)
-        
         view.layer.insertSublayer(videoPlayerLayer!, at: 0)
         //Add it to the view and play it
         videoPlayer?.playImmediately(atRate: 0.3)
-        
-        
+  
         
     }
-
 }
 

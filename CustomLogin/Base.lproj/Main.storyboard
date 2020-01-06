@@ -25,14 +25,14 @@
                                         </constraints>
                                         <state key="normal" title="SignUp"/>
                                         <connections>
-                                            <segue destination="VaW-NF-jI2" kind="show" id="rxw-qN-BwJ"/>
+                                            <segue destination="VaW-NF-jI2" kind="show" identifier="" id="rxw-qN-BwJ"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QGL-5v-Ogw">
                                         <rect key="frame" x="0.0" y="70" width="334" height="37.5"/>
                                         <state key="normal" title="Login"/>
                                         <connections>
-                                            <segue destination="tqs-RX-9cm" kind="show" id="lt5-85-gah"/>
+                                            <segue destination="tqs-RX-9cm" kind="show" identifier="" id="lt5-85-gah"/>
                                         </connections>
                                     </button>
                                 </subviews>
